@@ -1,0 +1,26 @@
+{
+  "name": "simple-blimp-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellojosh/simple-blimp-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hellojosh/simple-blimp-api/issues"
+  },
+  "homepage": "https://github.com/hellojosh/simple-blimp-api#readme",
+  "dependencies": {
+    "pg": "^7.12.1",
+    "restify": "^8.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
