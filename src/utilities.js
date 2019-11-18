@@ -1,4 +1,4 @@
-exports.createRegex = (path) => path.replace(/\/(\w+)/gmi, '/($1|:[a-zA-Z0-9]+)');
+exports.createRegex = (path) => `^${path.replace(/\/(\w+)/gmi, '/($1|:[a-zA-Z0-9]+)')}$`;
 
 exports.createRouteParams = (route, path) => {
   const routeParts = route.split('/');
