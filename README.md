@@ -10,7 +10,7 @@ Simple Blimp is a headless CMS that lets you define your own endpoints and the S
 
 1. Download this repo.
 
-2. In command line run `yarn i`.
+2. In command line run `yarn`.
 
 3. Start PostgreSQL.
 
